@@ -1,0 +1,11 @@
+C:\Users\39221000826\Documents\Exercicios .net\notas\bin\Debug\netcoreapp2.2\Notas.deps.json
+C:\Users\39221000826\Documents\Exercicios .net\notas\bin\Debug\netcoreapp2.2\Notas.runtimeconfig.json
+C:\Users\39221000826\Documents\Exercicios .net\notas\bin\Debug\netcoreapp2.2\Notas.runtimeconfig.dev.json
+C:\Users\39221000826\Documents\Exercicios .net\notas\bin\Debug\netcoreapp2.2\Notas.dll
+C:\Users\39221000826\Documents\Exercicios .net\notas\bin\Debug\netcoreapp2.2\Notas.pdb
+C:\Users\39221000826\Documents\Exercicios .net\notas\obj\Debug\netcoreapp2.2\Notas.csprojAssemblyReference.cache
+C:\Users\39221000826\Documents\Exercicios .net\notas\obj\Debug\netcoreapp2.2\Notas.csproj.CoreCompileInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\notas\obj\Debug\netcoreapp2.2\Notas.AssemblyInfoInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\notas\obj\Debug\netcoreapp2.2\Notas.AssemblyInfo.cs
+C:\Users\39221000826\Documents\Exercicios .net\notas\obj\Debug\netcoreapp2.2\Notas.dll
+C:\Users\39221000826\Documents\Exercicios .net\notas\obj\Debug\netcoreapp2.2\Notas.pdb
