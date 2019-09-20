@@ -16,7 +16,7 @@ namespace Salario
                 aumento = salario * 0.3;
                 salario += aumento;
                 Console.WriteLine("Parabéns você ganhou um aumento!");
-                Console.WriteLine("Seu novo salario é de R$ " + (salario:F2));
+                Console.WriteLine{"Seu novo salario é de R$ " + salario "F" };
             } else {
                 Console.WriteLine ("Desculpe, sem aumento salarial para você!");
             }

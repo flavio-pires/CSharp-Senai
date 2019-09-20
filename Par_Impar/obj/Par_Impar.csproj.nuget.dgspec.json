@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Salario\\Salario.csproj": {}
+    "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Par_Impar\\Par_Impar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Salario\\Salario.csproj": {
+    "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Par_Impar\\Par_Impar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Salario\\Salario.csproj",
-        "projectName": "Salario",
-        "projectPath": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Salario\\Salario.csproj",
+        "projectUniqueName": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Par_Impar\\Par_Impar.csproj",
+        "projectName": "Par_Impar",
+        "projectPath": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Par_Impar\\Par_Impar.csproj",
         "packagesPath": "C:\\Users\\39221000826\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Salario\\obj\\",
+        "outputPath": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Par_Impar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
