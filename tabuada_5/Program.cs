@@ -8,9 +8,10 @@ namespace tabuada_5
         {
             
             Console.WriteLine("Tabuada do 5");
-            for (int tab = 5; tab <= 50; tab+=5){
-                Console.WriteLine(tab);
+            for (int num = ;1 num <= 10; num++){
+                Console.WriteLine($"5 * {num} = {5*num}");
             }
+
         }
     }
 }
