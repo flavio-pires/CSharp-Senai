@@ -7,16 +7,9 @@ namespace menu_area
         static void Main(string[] args)
         {
             string geo;
-            float l1;
-            float l2;
-            float b;
-            float h;
+            float l1,l2,b,h,r,D,d,B;
             double pi= 3.14f;
-            float r;
-            float D;
-            float d;
-            float B;
-
+            
             do {                      
 
             Console.WriteLine("Escolha a forma geométrica que você deseja saber a área: ");
