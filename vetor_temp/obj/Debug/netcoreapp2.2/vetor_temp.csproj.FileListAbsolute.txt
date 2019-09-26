@@ -1,0 +1,11 @@
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\bin\Debug\netcoreapp2.2\vetor_temp.deps.json
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\bin\Debug\netcoreapp2.2\vetor_temp.runtimeconfig.json
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\bin\Debug\netcoreapp2.2\vetor_temp.runtimeconfig.dev.json
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\bin\Debug\netcoreapp2.2\vetor_temp.dll
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\bin\Debug\netcoreapp2.2\vetor_temp.pdb
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\obj\Debug\netcoreapp2.2\vetor_temp.csprojAssemblyReference.cache
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\obj\Debug\netcoreapp2.2\vetor_temp.csproj.CoreCompileInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\obj\Debug\netcoreapp2.2\vetor_temp.AssemblyInfoInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\obj\Debug\netcoreapp2.2\vetor_temp.AssemblyInfo.cs
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\obj\Debug\netcoreapp2.2\vetor_temp.dll
+C:\Users\39221000826\Documents\Exercicios .net\vetor_temp\obj\Debug\netcoreapp2.2\vetor_temp.pdb
