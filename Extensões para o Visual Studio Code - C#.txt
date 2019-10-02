@@ -1,0 +1,11 @@
+Extensões para o Visual Studio Code - C#
+
+- C#
+- C# Extensions
+- C# FixFormat
+- C# Snippets
+- C# XML Documentation Comments
+- GitLens - Git supercharged
+- indent-rainbow
+- Live Server
+- Better Comments
