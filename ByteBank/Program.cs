@@ -6,6 +6,7 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
+            
             System.Console.WriteLine("Cadastro de Clientes");
             System.Console.WriteLine();
             System.Console.Write("Nome: ");
@@ -17,10 +18,11 @@ namespace ByteBank
 
             cliente cliente1 = new cliente(nome,cpf,email);
 
+            bool senhaOk = false;
             do{
                 System.Console.Write("Digite a Senha: ");
                 string senha = Console.ReadLine();
-                bool senhaOk = cliente1.TrocaSenha (senha);
+                senhaOk = cliente1.TrocaSenha (senha);
                 if (!senhaOk){
                     System.Console.WriteLine("Senha não atende aos requisitos !");
                 } else {

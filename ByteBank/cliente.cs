@@ -5,7 +5,7 @@ namespace ByteBank
     public class cliente
     {
         // Comando para editar em colunas Crtl + Shift + Alt
-        public int Cpf {get;set;}
+        public string Cpf {get;set;}
         public string Nome {get;set;}
         public string Email {get;set;}
         public string Senha {get;set;}
