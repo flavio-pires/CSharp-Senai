@@ -16,9 +16,10 @@ namespace ByteBank2
             int numero = int.Parse(Console.ReadLine());
         
             bool saldoValido = false;
+            double saldo;
             do{
                 System.Console.Write("Digite o Saldo: ");
-                double saldo = double.Parse(Console.ReadLine());
+                saldo = double.Parse(Console.ReadLine());
                 if (saldo >= 0){
                     saldoValido = true;
                 } else {
@@ -28,6 +29,7 @@ namespace ByteBank2
 
             ContaCorrente contaCorrente = new ContaCorrente (agencia,numero,titular);
             contaCorrente.Saldo = saldo;
+            
 
         }
     }
