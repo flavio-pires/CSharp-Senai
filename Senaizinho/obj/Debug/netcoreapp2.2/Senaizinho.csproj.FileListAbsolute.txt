@@ -1,0 +1,11 @@
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\obj\Debug\netcoreapp2.2\Senaizinho.csprojAssemblyReference.cache
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\obj\Debug\netcoreapp2.2\Senaizinho.csproj.CoreCompileInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\obj\Debug\netcoreapp2.2\Senaizinho.AssemblyInfoInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\obj\Debug\netcoreapp2.2\Senaizinho.AssemblyInfo.cs
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\bin\Debug\netcoreapp2.2\Senaizinho.deps.json
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\bin\Debug\netcoreapp2.2\Senaizinho.runtimeconfig.json
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\bin\Debug\netcoreapp2.2\Senaizinho.runtimeconfig.dev.json
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\bin\Debug\netcoreapp2.2\Senaizinho.dll
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\bin\Debug\netcoreapp2.2\Senaizinho.pdb
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\obj\Debug\netcoreapp2.2\Senaizinho.dll
+C:\Users\39221000826\Documents\Exercicios .net\Senaizinho\obj\Debug\netcoreapp2.2\Senaizinho.pdb
