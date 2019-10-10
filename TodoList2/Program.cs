@@ -9,14 +9,14 @@ namespace TodoList
     {
         static int Main(string[] args) // trocado o tipo de aplicação de void pra int, pois o programa irá retornar um código de erro
         {
-            List <TodoItem> todoList = new List <TodoItem>();
+            List <TodoItem> todoList = new List <TodoItem>(); // "TodoItem" é o tipo de dados que a lista vai armazenar
             string fileName = "todo.csv"; //variável para chamar o nome do arquivo
             string filePath = ".\\" + fileName; // caminho da pasta onde o arquivo está
 
             todoList = initList(@filePath);
 
-            if(todoList == null){
-                return -1;
+            if(todoList == null){ // se a lista de afazeres for nula, significa que não carregou
+                return -1; // encerra a aplicação
             }
             
             int opcao = 0;
@@ -43,10 +43,14 @@ namespace TodoList
                         break;
                     case 3:
                         System.Console.WriteLine("Tchau!");
+                        SaveList (todoList, @filePath); //o método SaveList não vai retornar nennhum valor e vai solicitar a variável todoList
                         break;
                     default:
-                        System.Console.WriteLine("Opção Inválida");
+                        Console.Clear();
+                        System.Console.WriteLine("Opção Inválida!");
+                        System.Console.WriteLine("Aperte <Enter> para continuar");
                         Console.ReadLine();
+                        
                         break;
                 }
                 
@@ -54,26 +58,26 @@ namespace TodoList
             return 0;
             
         }
-
-        static List<TodoItem> initList (string filePath)
+        //Inicializa a lista de itens
+        static List<TodoItem> initList (string filePath) // criei um método initList, que chama a classe List que recebe o tipo de dado "TodoItem" e envia uma string para a variável filePath 
         {
             List<TodoItem> todoList = new List<TodoItem>();
 
             try{ //para ler o arquivo
-                string[] todoFile = File.ReadAllLines(@filePath); //ler o arquivo e quebrar em linhas
-
-                foreach(string line in todoFile){ //vetor de string é lido no arquivo. Utilizado para adicionar e remover itens
-                    string[] itens = line.Split(","); //procura o caractere virgula e quebra no meio... pega a string e quebra ela na virgula
-                    string titulo = itens[0].Replace("\"","");
+                string[] todoFile = File.ReadAllLines(@filePath); //faz a leitura de todo o arquivo e joga dentro do vetor string -- ReadAllLines ler o arquivo e quebrar em linhas
+                // foreach pega todos os itens 
+                foreach(string line in todoFile){ //vetor de string é lido no arquivo. Utilizado para adicionar e remover itens.. lido linha por linha
+                    string[] itens = line.Split(","); //procura dentro do vetor string o caractere virgula e quebra no meio... pega a string e quebra ela na virgula
+                    string titulo = itens[0].Replace("\"",""); // retira todas as aspas que tem no arquivo e não coloca nada no lugar
                     string nota = itens[1].Replace("\"","");
                     TodoItem todoItem = new TodoItem(titulo,nota);
-                    todoList.Add(todoItem);
+                    todoList.Add(todoItem); // .Add adiciona para a variável todolist o dado "todoItem" que possui as variáveis pedidas acima, "titulo,nota"
                 }
-                todoList.RemoveAt(0);
-                return todoList;
+                todoList.RemoveAt(0); // remove o cabeçalho do arquivo, indice 0
+                return todoList; // após executar os passos acima retorna as informações inseridas no programa dentro da variável "todoList"
             } catch(IOException e){ //utilizado para tratar a exceção
                 System.Console.WriteLine("Erro de Acesso");
-                System.Console.WriteLine(e.Message);
+                System.Console.WriteLine(e.Message); //dentro do objeto "e" é chamado o atributo "Message" para mostrar a mensagem.
                 return null; //é utilizado para abortar a aplicação. 0 termina a aplicação corretamente. -1 deu merda
             }
         }
@@ -91,7 +95,7 @@ namespace TodoList
             }
         }
 
-        static void AddItem(List<TodoItem> todoList){
+        static void AddItem(List<TodoItem> todoList){ // todoList é o parametro enviado para o metodo
             Console.Clear();
             System.Console.WriteLine("Novo Item");
             System.Console.WriteLine();
@@ -100,7 +104,7 @@ namespace TodoList
             System.Console.Write("Nota: ");
             string nota = Console.ReadLine();
             TodoItem item = new TodoItem(titulo,nota);
-            todoList.Add(item);
+            todoList.Add(item); //.Add adiciona para a variável todolist o dado "todoItem" que possui as variáveis pedidas acima, "titulo,nota"
         }
 
         static void RemoveItem(List<TodoItem> todoList){
@@ -132,6 +136,35 @@ namespace TodoList
                 }
 
             } while(true);
+        }
+        //Gravar os dados inseridos na lista
+        static void SaveList(List<TodoItem> lista, string path){
+            List<string> linhas = new List<string>(); //linhas é uma variável da classe List que tem todos os itens de afazeres. é um método construtor pois possui parentes no final
+            linhas.Add("Titulo, Nota");
+            foreach(TodoItem item in lista){ //foreach para cada item dentro da lista ele vai executar o passo abaixo
+                string titulo = "\"" + item.Titulo + "\"";
+                string nota = "\"" + item.Nota + "\"";
+                linhas.Add(titulo + "," + nota);
+            }
+            string tryAgain = "n";
+            do{
+                try{
+                    File.WriteAllLines(@path,linhas); //método que vai gravar no disco
+                    tryAgain = "n";
+                } catch(IOException e){
+                    System.Console.WriteLine("Erro na leitura do arquivo.");
+                    System.Console.WriteLine(e.Message);
+                    do{
+                        System.Console.WriteLine("Deseja tentar novamente (S/N) ?");
+                        tryAgain = Console.ReadLine().ToLower();
+                        if ((tryAgain != "n") || (tryAgain != "s")){
+                            System.Console.WriteLine("Opção inválida");
+                        }
+                    } while ((tryAgain == "s") || (tryAgain == "n"));
+
+                    
+                }
+            } while(tryAgain != "n");
         }
     }
 }
