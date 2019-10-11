@@ -58,6 +58,7 @@ namespace TodoList
             return 0;
             
         }
+        
         //Inicializa a lista de itens
         static List<TodoItem> initList (string filePath) // criei um método initList, que chama a classe List que recebe o tipo de dado "TodoItem" e envia uma string para a variável filePath 
         {
@@ -82,6 +83,7 @@ namespace TodoList
             }
         }
 
+        //Mostra os itens da lista
         static void ListaItens(List<TodoItem> todoList){
             Console.Clear();
             
@@ -95,6 +97,7 @@ namespace TodoList
             }
         }
 
+        //Adiciona itens na lista
         static void AddItem(List<TodoItem> todoList){ // todoList é o parametro enviado para o metodo
             Console.Clear();
             System.Console.WriteLine("Novo Item");
@@ -107,6 +110,7 @@ namespace TodoList
             todoList.Add(item); //.Add adiciona para a variável todolist o dado "todoItem" que possui as variáveis pedidas acima, "titulo,nota"
         }
 
+        //Remove itens da lista
         static void RemoveItem(List<TodoItem> todoList){
             int index = 0;
 
@@ -137,6 +141,7 @@ namespace TodoList
 
             } while(true);
         }
+        
         //Gravar os dados inseridos na lista
         static void SaveList(List<TodoItem> lista, string path){
             List<string> linhas = new List<string>(); //linhas é uma variável da classe List que tem todos os itens de afazeres. é um método construtor pois possui parentes no final

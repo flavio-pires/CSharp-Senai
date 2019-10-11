@@ -1,17 +1,16 @@
-namespace ByteBank3
+namespace ByteBank4
 {
     public class ContaCorrente
     {
-        //Atributos da classe
+         //Atributos da classe
         public Cliente Titular {get;set;}
         public int Agencia {get;set;}
         public int Numero {get;set;}
-        public double Saldo {get;set;}
-
-        //demonstração private
-        //private double _saldo;
-        //public double Saldo
-        //{ get {return _saldo;} }
+        private double _saldo {get;set;}
+        public double Saldo
+        { 
+            get {return _saldo;}
+        }
 
         //atalho = mudar todas as palavras iguais/ selecione a palavra, aperte F2 e digite a palavra
 
@@ -19,17 +18,17 @@ namespace ByteBank3
             this.Agencia = Agencia;
             this.Numero = Numero;
             this.Titular = Titular;
-            this.Saldo = 0.0;
+            this._saldo = 0.0;
         }
 
         public double Deposito (double valor){ // método Depósito recebe um dado double e retorna double
-            this.Saldo += valor; //soma o valor do depósito com o saldo da conta
-            return this.Saldo; //retorna valor do saldo atualizado
+            this._saldo += valor; //soma o valor do depósito com o saldo da conta
+            return this._saldo; //retorna valor do saldo atualizado
         }
 
         public bool Saque (double saque) { // método Saque retorna um booleano e recebe um double
-            if(saque <= this.Saldo){ // verifica se o valor do saque é menor ou igual o saldo da conta, se for verdade
-                this.Saldo -= saque; // reduz o valor do saque do saldo da conta corrente
+            if(saque <= this._saldo){ // verifica se o valor do saque é menor ou igual o saldo da conta, se for verdade
+                this._saldo -= saque; // reduz o valor do saque do saldo da conta corrente
                 return true;
             } else {
                 return false; // se não atender a condição, não realiza o saque

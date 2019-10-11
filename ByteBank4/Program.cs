@@ -1,8 +1,11 @@
 ﻿using System;
 
-namespace ByteBank3 {
-    class Program {
-        static void Main (string[] args) {
+namespace ByteBank4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
             System.Console.WriteLine ("Cadastro de Clientes");
             System.Console.WriteLine ();
             System.Console.Write ("Nome: ");
@@ -34,23 +37,50 @@ namespace ByteBank3 {
             int agencia = int.Parse (Console.ReadLine ());
             System.Console.Write ("Número da conta: ");
             int numero = int.Parse (Console.ReadLine ());
+            System.Console.WriteLine("Conta cadastrada!");
+            Console.Clear();
+            
+            int opcao;
+            do{
+                System.Console.WriteLine("Digite uma opção");
+                System.Console.WriteLine("1 - Depósito");
+                System.Console.WriteLine("2 - Saque");
+                System.Console.WriteLine("3 - Transferência");
+                System.Console.WriteLine("4 - Encerrar");        
+                System.Console.Write("Opção: ");
+                opcao = int.Parse(Console.ReadLine());
 
+                switch (opcao){
+                    case 1:
+                        Deposito();
+                        break;
+                    case 2:
+                        Saque();
+                        break;
+                    case 3:
+                        Transferencia();
+                        break;
+                    case 4:
+                        System.Console.WriteLine("Obrigado!");
+                        break;
+                    default:
+                        Console.Clear();
+                        System.Console.WriteLine("Opção Inválida!");
+                        System.Console.WriteLine("Aperte <Enter> para continuar");
+                        Console.ReadLine();
+                        
+                        break;
+                }
+                
+            } while(opcao != 4);
+
+        }
+    
+        static void Deposito(){
             bool saldoValido = false;
             double saldo;
-            do {
-                System.Console.Write ("Digite o Saldo: ");
-                saldo = double.Parse (Console.ReadLine ());
-                if (saldo >= 0) {
-                    saldoValido = true;
-                } else {
-                    System.Console.WriteLine ("O saldo não pode ser negativo!");
-                }
-            } while (!saldoValido);
-
             ContaCorrente contaCorrente = new ContaCorrente (agencia, numero, cliente1);
-            contaCorrente.Saldo = saldo;
-            //contaCorrente.Deposito (saldo);
-
+            contaCorrente.Deposito (saldo);
             System.Console.WriteLine("ByteBank - Depósito");
             Cliente usuario = contaCorrente.Titular;
             System.Console.WriteLine($"Bem vindo - {usuario.Nome}");
@@ -59,8 +89,17 @@ namespace ByteBank3 {
             Console.Write("Digite o valor do depósito: ");
             double valor = double.Parse(Console.ReadLine());
             saldo = contaCorrente.Deposito(valor);
+            do {
+                if (saldo >= 0) {
+                    saldoValido = true;
+                } else {
+                    System.Console.WriteLine ("O saldo não pode ser negativo!");
+                }
+            } while (!saldoValido);
             System.Console.WriteLine($"Saldo atual: {saldo}");
-            System.Console.WriteLine();
+        }
+
+        static void Saque(){
             Console.WriteLine("ByteBank - Saque");
             Console.WriteLine($"Bem vindo - {usuario.Nome}");
             Console.WriteLine($"Agencia: {contaCorrente.Agencia}   Conta: {contaCorrente.Numero}");
@@ -74,8 +113,9 @@ namespace ByteBank3 {
 
             }
             Console.WriteLine($"Saldo atual: {contaCorrente.Saldo}");
-            Console.WriteLine();
+        }
 
+        static void Transferencia(){
             Cliente cliente2 = new Cliente("Alexandre","123.321.123-12","a@a.com");
             ContaCorrente contaCorrente2 = new ContaCorrente(123,132,cliente2);
             Console.WriteLine("ByteBank - Transferencia");
@@ -93,7 +133,6 @@ namespace ByteBank3 {
             }
             Console.WriteLine($"Saldo origem: {contaCorrente.Saldo}");
             Console.WriteLine($"Saldo destino: {contaCorrente2.Saldo}");
-
         }
     }
 }
