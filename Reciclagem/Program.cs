@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Reciclagem.Enums; // using serve para chamar outros namespace
 using Reciclagem.Interfaces;
 using Reciclagem.Models;
-using System.Collections.Generic;
+using Reciclagem.View;
+using System;
+using System.Linq;
 
 namespace Reciclagem
 {
@@ -9,51 +11,74 @@ namespace Reciclagem
     {
         static void Main(string[] args)
         {
-            string menuBar = "===================================";
-
-            do
+            bool querSair = false;
+            do // primeiro laço imprimi uma mensagem e chama o menu
             {
-                Console.Clear();
+                System.Console.WriteLine("Estas são as coisas descartadas por você até agora:");
+                int codigo = MenuUtils<LixosEnum>.ExibirMenuPadrao(); // a variavel codigo chama o Menu que esta dentro de Reciclagem.view... para chamar o menuutils ele vai trazer os dados que estão dentro de LixosEnum
+                Reciclar(Lixeira.lixos[codigo]);
 
-                System.Console.WriteLine(menuBar);
-                Console.BackgroundColor = ConsoleColor.DarkCyan;
-                Console.ForegroundColor = ConsoleColor.Black;
-                System.Console.WriteLine("     Seja bem-vindo a Lixeira Digital      ");
-                System.Console.WriteLine("        Selecione o lixo:      ");
-                Console.ResetColor();
-                System.Console.WriteLine(menuBar);
-                Console.WriteLine("1 - Garrafa");
-                Console.WriteLine("2 - Garrafa PET");
-                Console.WriteLine("3 - Guarda Chuva");
-                Console.WriteLine("4 - Latinha");
-                Console.WriteLine("5 - Papelao");
-                Console.WriteLine("6 - Pote de Manteiga");
-                int lixo = int.Parse(Console.ReadLine());
-
-                switch(lixo) {
-                case "1":
-                Garrafa;
-                break;
-                case "2":
-                GarrafaPET;
-                break;
-                case "3":
-                GuardaChuva;
-                break;
-                case "4":
-                Latinha;
-                break;
-                case "5":
-                Papelao;
-                break;
-                case "6":
-                PoteManteiga;
-                break;
-                default:
-                Console.WriteLine("Lixo não encontrado!");
-                break;
-            }
-            }while (!lixo);
+            } while (!querSair);
         }
+
+        public static void Reciclar(Lixo lixo) // Lixo é a superclasse (classe pai) para as outras classes herdarem dele e entrarem no dicionario
+        {
+
+            Type tipoLixo = lixo.GetType().GetInterfaces().FirstOrDefault(); // a variavel tipolixo verifica qual o tipo do lixo informado pelo usuario, atraves do Get.Type.. GetInterfaces serve pa
+
+            if (tipoLixo.Equals(typeof(IPapel))) // typeof compara com o type tipolixo com o valor de Ipapel.. Equals serve para verificar se o tipolixo é igual o tipo dentro da interface IPapel
+            {
+                IPapel lixoConvertido = (IPapel)lixo; // tecnica casting.. a variavel lixo é inserida dentro da interface IPapel para afirmar que o lixo é um papel e use o método ReciclarFeitoPapel
+                Console.BackgroundColor = ConsoleColor.Blue;
+                System.Console.WriteLine($"{lixoConvertido.ReciclarFeitoPapel()} deve ir para a lixeira Azul");
+                Console.ResetColor();
+
+            }
+            else if (tipoLixo.Equals(typeof(IMetal)))
+            {
+                IMetal lixoConvertido = (IMetal)lixo;
+                Console.BackgroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Black;
+                System.Console.WriteLine($"{lixoConvertido.ReciclarFeitoMetal()} deve ir para a lixeira Amarela");
+                Console.ResetColor();
+            }
+            else if (tipoLixo.Equals(typeof(IPlastico)))
+            {
+                IPlastico lixoConvertido = (IPlastico)lixo;
+                Console.BackgroundColor = ConsoleColor.Red;
+                System.Console.WriteLine($"{lixoConvertido.ReciclarFeitoPlastico()} deve ir para a lixeira Vermelha");
+                Console.ResetColor();
+            }
+            else if (tipoLixo.Equals(typeof(IVidro)))
+            {
+                IVidro lixoConvertido = (IVidro)lixo;
+                Console.BackgroundColor = ConsoleColor.Green;
+                System.Console.WriteLine($"{lixoConvertido.ReciclarFeitoVidro()} deve ir para a lixeira Verde");
+                Console.ResetColor();
+            }
+            else if (tipoLixo.Equals(typeof(IOrganico)))
+            {
+                IOrganico lixoConvertido = (IOrganico)lixo;
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.BackgroundColor = ConsoleColor.Black;
+                System.Console.WriteLine($"{lixoConvertido.JogarNaComposteira()} deve ir para a Composteira");
+                Console.ResetColor();
+            }
+            else if (tipoLixo.Equals(typeof(IIndefinido)))
+            {
+                IIndefinido lixoConvertido = (IIndefinido)lixo;
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.BackgroundColor = ConsoleColor.Gray;
+                System.Console.WriteLine($"{lixoConvertido.ProcurarOQueFazer()} deve ir para o descarte especial");
+                Console.ResetColor();
+            }
+            else
+            {
+                System.Console.WriteLine("Tipo não identificado!");
+            }
+            System.Console.WriteLine("Aperte ENTER para voltar ao menu principal");
+            Console.ReadLine();
+        }
+
     }
 }

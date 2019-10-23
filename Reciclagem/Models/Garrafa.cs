@@ -1,15 +1,12 @@
-using System;
 using Reciclagem.Interfaces;
+
 namespace Reciclagem.Models
 {
-    public class Garrafa : IVidro
+    public class Garrafa : Lixo, IVidro
     {
-        public bool LixoVerde()
+        public string ReciclarFeitoVidro()
         {
-            Console.BackgroundColor = ConsoleColor.DarkGreen;
-            Console.ForegroundColor = ConsoleColor.Black;
-            System.Console.WriteLine("Este lixo deve ser jogado na lixeira de cor Verde para Vidros");
-            return true;
+            return this.GetType().Name; // GetType . Name recupera o nome da classe, no caso Garrafa ... type é o tipo do objeto, se é srting ou int, etc
         }
     }
 }

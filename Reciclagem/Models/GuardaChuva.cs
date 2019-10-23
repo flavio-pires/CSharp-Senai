@@ -1,14 +1,13 @@
-using System;
 using Reciclagem.Interfaces;
+
 namespace Reciclagem.Models
 {
-    public class GuardaChuva : INaoReciclavel
+    public class GuardaChuva : Lixo, IIndefinido
     {
-        public bool LixoCinza()
+
+        public string ProcurarOQueFazer()
         {
-            Console.BackgroundColor = ConsoleColor.Gray;
-            System.Console.WriteLine("Este lixo deve ser jogado na lixeira de cor Cinza para materiais Não Recicláveis");
-            return true;
+            return this.GetType().Name;
         }
     }
 }

@@ -1,15 +1,12 @@
-using System;
 using Reciclagem.Interfaces;
+
 namespace Reciclagem.Models
 {
-    public class Latinha : IMetal
+    public class Latinha : Lixo, IMetal
     {
-        public bool LixoAmarelo()
+        public string ReciclarFeitoMetal()
         {
-            Console.BackgroundColor = ConsoleColor.DarkYellow;
-            Console.ForegroundColor = ConsoleColor.Black;
-            System.Console.WriteLine("Este lixo deve ser jogado na lixeira de cor Amarela para Metais");
-            return true;
+            return this.GetType().Name;
         }
     }
 }

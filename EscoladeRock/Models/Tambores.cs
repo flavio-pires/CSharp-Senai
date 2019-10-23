@@ -7,7 +7,7 @@ namespace EscoladeRock.Models
     {
     public bool ManterRitmo()
     {
-        System.Console.WriteLine("Manter ritmo ddos tambores");
+        System.Console.WriteLine("Manter ritmo dos tambores");
         return true;
         
     }
