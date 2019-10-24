@@ -83,8 +83,8 @@ namespace Reciclagem.View
             System.Console.WriteLine(barraMenu);
             Console.BackgroundColor = ConsoleColor.DarkCyan;
             Console.ForegroundColor = ConsoleColor.Black;
-            System.Console.WriteLine("     Seja bem-vindo(a) Vocal!      ");
-            System.Console.WriteLine("        Escolha uma formação:      ");
+            System.Console.WriteLine("     Seja bem-vindo a Lixeira Virtual      ");
+            System.Console.WriteLine("        Selecione o lixo:      ");
             Console.ResetColor();
             System.Console.WriteLine(barraMenu);
             #endregion

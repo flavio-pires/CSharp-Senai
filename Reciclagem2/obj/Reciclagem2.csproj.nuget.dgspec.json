@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Escoladerock\\EscoladeRock.csproj": {}
+    "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Reciclagem2\\Reciclagem2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Escoladerock\\EscoladeRock.csproj": {
+    "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Reciclagem2\\Reciclagem2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Escoladerock\\EscoladeRock.csproj",
-        "projectName": "EscoladeRock",
-        "projectPath": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Escoladerock\\EscoladeRock.csproj",
+        "projectUniqueName": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Reciclagem2\\Reciclagem2.csproj",
+        "projectName": "Reciclagem2",
+        "projectPath": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Reciclagem2\\Reciclagem2.csproj",
         "packagesPath": "C:\\Users\\39221000826\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Escoladerock\\obj\\",
+        "outputPath": "C:\\Users\\39221000826\\Documents\\Exercicios .net\\Reciclagem2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
