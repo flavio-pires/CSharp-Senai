@@ -1,0 +1,11 @@
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\obj\Debug\netcoreapp2.2\Par_Impar.csprojAssemblyReference.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\obj\Debug\netcoreapp2.2\Par_Impar.csproj.CoreCompileInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\obj\Debug\netcoreapp2.2\Par_Impar.AssemblyInfoInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\obj\Debug\netcoreapp2.2\Par_Impar.AssemblyInfo.cs
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\bin\Debug\netcoreapp2.2\Par_Impar.deps.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\bin\Debug\netcoreapp2.2\Par_Impar.runtimeconfig.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\bin\Debug\netcoreapp2.2\Par_Impar.runtimeconfig.dev.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\bin\Debug\netcoreapp2.2\Par_Impar.dll
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\bin\Debug\netcoreapp2.2\Par_Impar.pdb
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\obj\Debug\netcoreapp2.2\Par_Impar.dll
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Par_Impar\obj\Debug\netcoreapp2.2\Par_Impar.pdb

@@ -1,0 +1,11 @@
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\obj\Debug\netcoreapp2.2\Desenho_Triangulo.csprojAssemblyReference.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\obj\Debug\netcoreapp2.2\Desenho_Triangulo.csproj.CoreCompileInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\obj\Debug\netcoreapp2.2\Desenho_Triangulo.AssemblyInfoInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\obj\Debug\netcoreapp2.2\Desenho_Triangulo.AssemblyInfo.cs
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\bin\Debug\netcoreapp2.2\Desenho_Triangulo.deps.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\bin\Debug\netcoreapp2.2\Desenho_Triangulo.runtimeconfig.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\bin\Debug\netcoreapp2.2\Desenho_Triangulo.runtimeconfig.dev.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\bin\Debug\netcoreapp2.2\Desenho_Triangulo.dll
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\bin\Debug\netcoreapp2.2\Desenho_Triangulo.pdb
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\obj\Debug\netcoreapp2.2\Desenho_Triangulo.dll
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Desenho_Triangulo\obj\Debug\netcoreapp2.2\Desenho_Triangulo.pdb
