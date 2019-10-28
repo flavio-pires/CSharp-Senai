@@ -1,0 +1,11 @@
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\obj\Debug\netcoreapp2.2\Impressao_100.csprojAssemblyReference.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\obj\Debug\netcoreapp2.2\Impressao_100.csproj.CoreCompileInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\obj\Debug\netcoreapp2.2\Impressao_100.AssemblyInfoInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\obj\Debug\netcoreapp2.2\Impressao_100.AssemblyInfo.cs
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\bin\Debug\netcoreapp2.2\Impressao_100.deps.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\bin\Debug\netcoreapp2.2\Impressao_100.runtimeconfig.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\bin\Debug\netcoreapp2.2\Impressao_100.runtimeconfig.dev.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\bin\Debug\netcoreapp2.2\Impressao_100.dll
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\bin\Debug\netcoreapp2.2\Impressao_100.pdb
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\obj\Debug\netcoreapp2.2\Impressao_100.dll
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_100\obj\Debug\netcoreapp2.2\Impressao_100.pdb

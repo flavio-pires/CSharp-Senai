@@ -6,7 +6,7 @@ namespace Desenho_Triangulo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Desenho do Triângulo");
+            Console.WriteLine("======= Desenho do Triângulo ========");
             System.Console.WriteLine();
             System.Console.Write("Digite a altura do seu triângulo: ");
             int h = int.Parse(Console.ReadLine());
@@ -17,9 +17,8 @@ namespace Desenho_Triangulo
                 }
                 System.Console.WriteLine("");
             }
-            string estrelas = " ";
-            int altura = 7;
-            for (int x = 0; x < altura; x++){
+            string estrelas = "";
+            for (int x = 0; x < h; x++){
                 estrelas += "*";
                 System.Console.WriteLine(estrelas);
             }

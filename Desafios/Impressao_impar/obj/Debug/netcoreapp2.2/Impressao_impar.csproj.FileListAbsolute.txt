@@ -1,0 +1,11 @@
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\bin\Debug\netcoreapp2.2\Impressao_impar.deps.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\bin\Debug\netcoreapp2.2\Impressao_impar.runtimeconfig.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\bin\Debug\netcoreapp2.2\Impressao_impar.runtimeconfig.dev.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\bin\Debug\netcoreapp2.2\Impressao_impar.dll
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\bin\Debug\netcoreapp2.2\Impressao_impar.pdb
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\obj\Debug\netcoreapp2.2\Impressao_impar.csprojAssemblyReference.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\obj\Debug\netcoreapp2.2\Impressao_impar.csproj.CoreCompileInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\obj\Debug\netcoreapp2.2\Impressao_impar.AssemblyInfoInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\obj\Debug\netcoreapp2.2\Impressao_impar.AssemblyInfo.cs
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\obj\Debug\netcoreapp2.2\Impressao_impar.dll
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\Impressao_impar\obj\Debug\netcoreapp2.2\Impressao_impar.pdb
