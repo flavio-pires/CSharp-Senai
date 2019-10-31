@@ -36,7 +36,7 @@ namespace IMC
             } else if (imc > 35){
                 System.Console.WriteLine($"Seu IMC é de {imc} e você está com obesidade mórbida!");
             }
-            } while(imc != 0);
+            } while(imc == 0);
         }
     }
 }

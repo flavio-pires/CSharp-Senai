@@ -1,0 +1,22 @@
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\bin\Debug\netcoreapp2.2\D20_Pares_Impares.deps.json
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\bin\Debug\netcoreapp2.2\D20_Pares_Impares.runtimeconfig.json
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\bin\Debug\netcoreapp2.2\D20_Pares_Impares.runtimeconfig.dev.json
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\bin\Debug\netcoreapp2.2\D20_Pares_Impares.dll
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\bin\Debug\netcoreapp2.2\D20_Pares_Impares.pdb
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.csprojAssemblyReference.cache
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.csproj.CoreCompileInputs.cache
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.AssemblyInfoInputs.cache
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.AssemblyInfo.cs
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.dll
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.pdb
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\bin\Debug\netcoreapp2.2\D20_Pares_Impares.deps.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\bin\Debug\netcoreapp2.2\D20_Pares_Impares.runtimeconfig.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\bin\Debug\netcoreapp2.2\D20_Pares_Impares.runtimeconfig.dev.json
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\bin\Debug\netcoreapp2.2\D20_Pares_Impares.dll
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\bin\Debug\netcoreapp2.2\D20_Pares_Impares.pdb
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.csprojAssemblyReference.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.csproj.CoreCompileInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.AssemblyInfoInputs.cache
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.AssemblyInfo.cs
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.dll
+C:\Users\39221000826\Documents\Exercicios .net\Desafios\D20_Pares_Impares\obj\Debug\netcoreapp2.2\D20_Pares_Impares.pdb

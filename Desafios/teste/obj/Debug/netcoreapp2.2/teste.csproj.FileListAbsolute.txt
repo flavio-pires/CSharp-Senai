@@ -1,0 +1,11 @@
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\bin\Debug\netcoreapp2.2\teste.deps.json
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\bin\Debug\netcoreapp2.2\teste.runtimeconfig.json
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\bin\Debug\netcoreapp2.2\teste.runtimeconfig.dev.json
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\bin\Debug\netcoreapp2.2\teste.dll
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\bin\Debug\netcoreapp2.2\teste.pdb
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\obj\Debug\netcoreapp2.2\teste.csprojAssemblyReference.cache
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\obj\Debug\netcoreapp2.2\teste.csproj.CoreCompileInputs.cache
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\obj\Debug\netcoreapp2.2\teste.AssemblyInfoInputs.cache
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\obj\Debug\netcoreapp2.2\teste.AssemblyInfo.cs
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\obj\Debug\netcoreapp2.2\teste.dll
+C:\Users\39221000826\Documents\CSharp-Senai\Desafios\teste\obj\Debug\netcoreapp2.2\teste.pdb
